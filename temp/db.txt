@@ -1,0 +1,8 @@
+CREATE TABLE temp
+ (
+   id INT AUTO_INCREMENT PRIMARY KEY, 
+   user_name varchar (50), 
+   user_mail varchar (100), 
+   user_pass varchar (60), 
+   role varchar (10) DEFAULT 'user' 
+   );
